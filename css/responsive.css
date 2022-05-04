@@ -55,6 +55,11 @@
         line-height: 1.2rem;
     }
 
+    /* 3 Banner section */
+.banner_wrapper{
+    height: 50vh;
+    
+}
     /* product and solution  */
     .product-wrapper .product-content{
         padding: 0.5rem 1rem;
@@ -80,4 +85,6 @@
         transition: var(--transition);
         margin: 0 2rem;
     }
+
+
 }
