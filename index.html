@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ambizen</title>
+  <!-- FAVICON -->
+  <link rel="icon" href="images/brand_1.jpeg">
+  <!-- Bootstrao CSS File -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- fontwasome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <!-- Custome CSS file -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+  <!-- Navigation section -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/brand_1.jpeg" alt="brand_logo" class="img-fluid" height="50" width="150">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Price</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Team</a>
+            </li>
+            <li class="nav-item mt-3 mt-lg-0">
+              <a class="nav-link main-btn" href="#contact">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Banner section -->
+  <section id="home" class="banner_wrapper">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" style="background-image:url(./images/banner_1.jpg)">
+          <div class="slide-caption text-center">
+            <div>
+              <h1>Welcome to Ambizen Automation</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde commodi earum velit quis, quaerat
+                sapiente!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide" style="background-image:url(./images/banner_2.jpg)">
+          <div class="slide-caption text-center">
+            <div>
+              <h1>Welcome to Ambizen Automation</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde commodi earum velit quis, quaerat
+                sapiente!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide" style="background-image:url(./images/banner_4.jpg)">
+          <div class="slide-caption text-center">
+            <div>
+              <h1>Welcome to Ambizen Automation</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde commodi earum velit quis, quaerat
+                sapiente!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </section>
+
+  <!-- About us section -->
+  <section id="about" class="about_wrapper">
+    <div class="container">
+      <div class="row flex-lg-row flex-column-reverse">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h3>Welcome to <span>Ambizen <br class="d-none d-lg-block">to have</span> Solution</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, illum est veritatis corrupti consequuntur amet dicta nisi eius quam pariatur delectus nostrum deserunt quod harum eos ipsam enim laboriosam quidem!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est necessitatibus incidunt in aliquam cupiditate earum doloribus ratione quaerat error temporibus, vitae fugiat, tempora fugit quisquam deleniti provident odio quis nam!</p>
+          <a href="#" class="main-btn mt-4">Explore</a>
+        </div>
+        <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+          <img src="./images/bot_1.png" alt="about_us img" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Product and Solution -->
+  <section id="product" class="product_wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 section-title text-center md-5">
+          <h6>What We can do for you</h6>
+          <h3>Products and Solution</h3>
+        </div>
+      </div>
+
+      <div class="row m-0">
+        <div class="col-md-4 mb-4 mb-lg-0">
+          <div class="product">
+            <img src="./images/robotic-29431.png" alt="product-1" class="img-fluid">
+            <div class="product_wrap">
+              <div class="product-content">
+                <h5 class="text-white mb-lg-3 text-decoration-underline">Tested part</h5>
+                <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, natus!</p>
+                <a href="#" class="main-btn border-white text-white mt-lg-2">Get Price</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4 mb-lg-0">
+          <div class="product">
+            <img src="./images/bot_1.png" alt="product-1" class="img-fluid">
+            <div class="product_wrap">
+              <div class="product-content">
+                <h5 class="text-white mb-lg-3 text-decoration-underline">HardWare spear</h5>
+                <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, natus!</p>
+                <a href="#" class="main-btn border-white text-white mt-lg-2">Get Price</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4 mb-lg-0">
+          <div class="product">
+            <img src="./images/bot_3.png" alt="product-1" class="img-fluid">
+            <div class="product_wrap">
+              <div class="product-content">
+                <h5 class="text-white mb-lg-3 text-decoration-underline">Software System</h5>
+                <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, natus!</p>
+                <a href="#" class="main-btn border-white text-white mt-lg-2">Get Price</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services section -->
+  <section id="servcies" class="service_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 section-title text-center md-5">
+          <h6>We Ate Here For You</h6>
+          <h3>Our Awesome Services</h3>
+        </div>
+      </div>
+      <div class="row align-items-center service-item-wrap">
+        <div class="col-lg-6 p-lg-0">
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="updating" role="tabpanel">
+              <img src="./images/bot_5.jpg" alt="">
+            </div>
+            <div class="tab-pane fade" id="testing" role="tabpanel">
+              <img src="./images/bot_4.jpg" alt="">
+            </div>
+            <div class="tab-pane fade" id="producing" role="tabpanel">
+              <img src="./images/bot_3.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 position-relative">
+          <div class="service-menu-area">
+            <ul class="nav">
+              <li>
+                <a data-bs-toggle="tab" href="#updating" class="active">
+                  <span class="service-icon">
+                    <i class="fas fa-edit"></i>
+                  </span>
+                  <h5>Update, Be with Future</h5>
+                  <p><span>Lorem, ipsum dolor.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, totam?</p>
+                </a>
+              </li>
+              <li>
+                <a data-bs-toggle="tab" href="#testing">
+                  <span class="service-icon">
+                    <i class="fas fa-charging-station"></i>
+                  </span>
+                  <h5>Testing</h5>
+                  <p><span>Lorem, ipsum dolor.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, totam?</p>
+                </a>
+              </li>
+              <li>
+                <a data-bs-toggle="tab" href="#producing">
+                  <span class="service-icon">
+                    <i class="fab fa-product-hunt"></i>
+                  </span>
+                  <h5>Producing</h5>
+                  <p><span>Lorem, ipsum dolor.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, totam?</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- counter -->
+    <div class="counter mt-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count1"></span>50+
+            </h2>
+            <p>Happy Clients</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count2"></span>165+
+            </h2>
+            <p>Project Complition</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count3"></span>11+
+            </h2>
+            <p>Countries</p>
+          </div>
+          <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+            <h2>
+              <span id="count4"></span>296+
+            </h2>
+            <p>Solution</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Price Section -->
+  <section id="price" class="price_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 section-title text-center mb-2">
+          <h6>Best Price for you</h6>
+          <h3>Our Pricing</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-4 text-center rounded-3">
+            <h5 class="text-decoration-underline mb-4">Economic</h5>
+            <ul class="list-unstyled">
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <hr>
+              <h3>Rs.9856</h3>
+              <a href="#" class="main-btn">Get Deal</a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-4 text-center rounded-3">
+            <h5 class="text-decoration-underline mb-4">Economic</h5>
+            <ul class="list-unstyled">
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <hr>
+              <h3>Rs.9856</h3>
+              <a href="#" class="main-btn">Get Deal</a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-4 text-center rounded-3">
+            <h5 class="text-decoration-underline mb-4">Economic</h5>
+            <ul class="list-unstyled">
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <hr>
+              <h3>Rs.9856</h3>
+              <a href="#" class="main-btn">Get Deal</a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-4 text-center rounded-3">
+            <h5 class="text-decoration-underline mb-4">Economic</h5>
+            <ul class="list-unstyled">
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <li>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </li>
+              <hr>
+              <h3>Rs.9856</h3>
+              <a href="#" class="main-btn">Get Deal</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- our Clients -->
+  <div class="our-partner-slider mt-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12 mt-4">
+          <h6>Let Work Together</h6>
+          <h3>Our Clients</h3>
+        </div>
+      </div>
+    </div>
+    <div class="container swiper our-partner">
+      <div class="swiper-wrapper justify-content-center align-items-center">
+        <div class="swiper-slide"><img src="./images/rebook.png" alt="" class="img-fluid"></div>
+        <div class="swiper-slide"><img src="./images/fedx.png" alt="" class="img-fluid"></div>
+        <div class="swiper-slide"><img src="./images/space.png" alt="" class="img-fluid"></div>
+        <div class="swiper-slide"><img src="./images/dos.png" alt="" class="img-fluid"></div>
+        <div class="swiper-slide"><img src="./images/aboott.png" alt="" class="img-fluid"></div>
+        <div class="swiper-slide"><img src="./images/space.png" alt="" class="img-fluid"></div>
+        <div class="swiper-slide"><img src="./images/fedx.png" alt="" class="img-fluid"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer section -->
+  <footer id="footer" class="footer_wrapper">
+      <div class="container pb-3">
+        <div class="row justify-content-evenly pt-5">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5>Ambizen</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo excepturi natus voluptatum cumque enim esse?</p>
+            <div class="contact-info">
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fas fa-map-marker-alt"></i> No. 96 Panvel South Mumbai</a></li>
+                <li><a href="#"><i class="fas fa-phone-alt"></i> +91 986523856</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i> info@examplegmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-md-center mb-4">
+            <h5>Important Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">contact</a></li>
+              <li><a href="#">services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Project</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 social mb-4">
+            <h5>Follow us</h5>
+            <ul class="link-widget p-0">
+              <li class="d-inline-block"><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li class="d-inline-block"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+              <li class="d-inline-block"><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+              <li class="d-inline-block"><a href="#"><i class="fab fa-bitcoin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <hr>
+            <p>Copyright <a href="#">&copy; Ambizen</a> All Right Reserved.</p>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  <!-- Swiper js file -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Bootstrap js file -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Custome js file -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
